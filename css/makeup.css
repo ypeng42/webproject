@@ -1,0 +1,233 @@
+body{
+	font: Arial;
+	background:#8eaecf;
+}
+
+h4{
+	margin:0 0 10px 0;
+}
+
+ul{
+	list-style:none;
+}
+
+.clear{
+	clear:both;
+}
+
+.triangle{
+	width:0;
+	height:0;
+	border-left:5px solid black;
+	border-top:5px solid transparent;
+	border-bottom:5px solid transparent;
+	display: inline-block;
+	margin-right:7px;
+}
+
+.right_triangle{
+	width:0;
+	height:0;
+	border-right:15px solid black;
+	border-top:15px solid transparent;
+	border-bottom:15px solid transparent;
+	display: inline-block;
+	margin-right:7px;
+	float: left;
+}
+
+.left_triangle{
+	width:0;
+	height:0;
+	border-left:15px solid black;
+	border-top:15px solid transparent;
+	border-bottom:15px solid transparent;
+	display: inline-block;
+	margin-right:7px;
+	float: right;
+}
+
+input{
+	margin:4px 0 4px 0;
+}
+
+#logo{
+	float:left;
+}
+
+#logo img{
+	width:30px;
+	height:30px;
+	margin-right:10px;
+}
+
+#header h1, ul{
+	margin:0;
+	padding:0;
+}
+
+#header{
+	margin-bottom:10px;
+	margin:0 auto;
+	width:940px;
+	padding:10px;
+}
+
+#menu{
+	width:940px;
+	padding:10px;
+	margin:0 auto;
+}
+
+#menu ul{
+	list-style:none;
+	height:30px;
+	margin-bottom:10px;
+	border-bottom: 2px solid black;
+}
+
+#menu ul li{
+	float:left;
+}
+
+#menu ul li a{
+	display:block;
+	color:#000;
+	text-decoration:none;
+	padding:0 20px;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#menu ul li a:hover, #menu ul li a.selected{
+	background:black;
+	color:#fff;
+	
+}
+
+#main{
+	border-radius:5px 5px 0 0;
+	background: #e0eaf4;
+	width:940px;
+	padding:10px;
+	margin:0 auto;
+	min-height:1000px;
+}
+
+
+#side{
+	float:right;
+	padding:10px;
+	width:219px;
+	border-left:1px dashed #aaa;
+}
+
+#side h2{
+	border-bottom: 2px solid black;
+}
+
+.inner{
+	margin-bottom: 50px;
+	font-size: 17px;
+}
+
+.inner ul li{
+	margin-bottom:15px;
+}
+
+.inner ul li a{
+	text-decoration:none;
+	color:black;
+}
+
+.inner ul li a:hover{
+	text-decoration:underline;
+}
+
+
+.inner ul li ul {
+	margin-left:20px;
+	display:none;
+}
+
+.inner ul li ul li a{
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.inner ul li ul li{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.inner ul li:hover ul{
+	display:block;
+}
+
+#login li{
+	margin-top:5px;
+}
+
+#login li a{
+	text-decoration:none;
+	color:black;
+}
+
+#login li a:hover{
+	text-decoration:underline;
+}
+
+.main_form{
+	margin-left:30px;
+	margin-bottom: 30px;
+	width: 500px;
+	padding-bottom: 20px;
+	border-bottom:1px dashed black;
+}
+
+.main_form ul{
+	margin-top:5px;
+}
+
+.main_form li{
+	margin-bottom:10px;
+}
+
+.main_form a{
+	color: black;
+	margin-left:10px;
+}
+
+.main_form h3{
+	color: #FF5050;
+}
+
+.message{
+	border: 1px solid #333300;
+	margin-bottom: 30px;
+}
+
+.todo_list{
+	margin-bottom: 25px;
+}
+
+.update{
+	margin-left: 30px;
+}
+
+.update h2{
+	text-align: center;
+}
+
+#vacation_process li{
+	margin: 10px 0 10px 10px;
+}
+
+#footer{
+	background:#000;
+	color:#fff;
+	padding:10px;
+	width:940px;
+	margin:0 auto;
+}
